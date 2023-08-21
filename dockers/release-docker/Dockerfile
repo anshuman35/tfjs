@@ -43,6 +43,7 @@ VOLUME ["/root/.config"]
 
 # Install virtualenv
 RUN pip3 install virtualenv
+RUN pip3 install jy
 
 # Install absl
 RUN pip3 install absl-py
